@@ -1,6 +1,6 @@
 import svgToTinyDataUri from 'mini-svg-data-uri';
 import { renderToString } from 'react-dom/server';
-import type { IconType } from 'react-icons';
+import { IconType } from 'react-icons';
 
 type Props = {
   icon: IconType;
